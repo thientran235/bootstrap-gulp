@@ -1,0 +1,66 @@
+{
+    "title": "Hello, world!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cumque asperiores quas ratione veritatis officiis. Praesentium sunt aperiam ipsa error hic! Pariatur rerum at, laborum aliquam quo accusantium dolorem possimus.",
+    "logo": "./assets/img/logo.svg",
+    "home_page": "./index.html",
+    "section1": {
+        "title": "Welcome to </br><span> our website</span>",
+        "background_image": "./assets/img/hero.jpg",
+        "button1": {
+            "text": "About us",
+            "link": "#"
+        },
+        "button2": {
+            "text": "Contact us",
+            "link": "#"
+        }
+    },
+    "section2": {
+        "title": "You can do more </br>with<span class=\"small\"> us</span>.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut\nenim ad minim veniam, quis nostrud exercitation ullamco laboris\nnisi ut aliquip ex ea commodo consequat.",
+        "button": {
+            "text": "Our Services",
+            "link": "#"
+        }
+    },
+    "section3": {
+        "title": "This is an intro about</br>why choose<span class=\"small\"> our website</span>.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut\nenim ad minim veniam, quis nostrud exercitation ullamco laboris\nnisi ut aliquip ex ea commodo consequat.",
+        "button1": {
+            "text": "About us",
+            "link": "#"
+        },
+        "button2": {
+            "text": "Contact us",
+            "link": "#"
+        }
+    },
+    "section4": {
+        "box1": {
+            "image": "./assets/img/box-seam.svg",
+            "title": "This is something</br><span class=\"small\"> we</span> offer.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        },
+        "box2": {
+            "image": "./assets/img/box-seam.svg",
+            "title": "This is something</br><span class=\"small\"> we</span> offer.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        },
+        "box3": {
+            "image": "./assets/img/box-seam.svg",
+            "title": "This is something</br><span class=\"small\"> we</span> offer.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        }
+    },
+    "section5": {
+        "testimonial": "This can be a testimonial or quote either form a client or from\nLemonpath itself, this is just place holder text. Key words to be\nbe displayed in <span>yellow</span>."
+    },
+    "footer": {
+        "getintounch": {
+            "title": "Want to get in</br>touch? Here is</br><span>how</span>.",
+            "input": "Enter your email address…",
+            "button": "Send"
+        }
+    }
+
+}

@@ -1,0 +1,100 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+// https://bootstrapvars.com/4.4/
+
+$red:                         #f05555;
+$gray-100:                    #f7f7f7;
+$gray-200:                    #e4e4e4;
+$gray-900:                    #30302e;
+$beige-100:                   #f0ebe3;
+$primary:                       #5fbc65;
+$secondary:                     #0a497b;
+$success:                       $secondary;
+$info:                          $gray-900;
+$warning:                       $primary;
+$danger:                        $red;
+$black:                       #000000;
+
+
+// Text Colors
+$text-color-1:                  #111111;
+$text-color-2:                  $primary;
+$text-color-3:                  $black;
+$text-color-4:                  #031532;
+
+// Font Family
+$font-family-primary:          "europa", serif;
+$font-family-secondary:        "europa", sans-serif;
+
+// Font Size
+$font-size-base: 1rem;
+
+// Font Weight
+$font-weight-lighter:           lighter;
+$font-weight-light:             300;
+$font-weight-normal:            400;
+$font-weight-medium:            500;
+$font-weight-semibold:          600;
+$font-weight-bold:              700;
+$font-weight-bolder:            800;
+$font-weight-black:             900;
+$font-weight-base:              $font-weight-light;
+$line-height-base:              1.5;
+
+// Header
+$h1-font-size:                  85px;
+$h2-font-size:                  40px;
+$h3-font-size:                  28px;
+$h4-font-size:                  22px;
+$h5-font-size:                  20px;
+$h6-font-size:                  $font-size-base * 0.6875;
+$h1-line-height:                1.3;
+$h2-line-height:                1.3;
+$h3-line-height:                1.3;
+$h4-line-height:                $font-size-base * 1.5;
+$h5-line-height:                $font-size-base * 1.5;
+$h6-line-height:                $font-size-base * 1.5;
+
+// Header Touch
+$h1-font-size-touch:            $font-size-base * 2.25;
+$h2-font-size-touch:            $font-size-base * 1.5;
+$h3-font-size-touch:            $font-size-base * 1.0625;
+$h4-font-size-touch:            $font-size-base * 0.875;
+$h5-font-size-touch:            $font-size-base * 0.75;
+$h6-font-size-touch:            $font-size-base * 0.6875;
+$h1-line-height-touch:          $font-size-base * 2.5;
+$h2-line-height-touch:          $font-size-base * 2.25;
+$h3-line-height-touch:          $font-size-base * 1.5;
+$h4-line-height-touch:          $font-size-base * 1.5;
+$h5-line-height-touch:          $font-size-base * 1.5;
+$h6-line-height-touch:          $font-size-base * 1.5;
+
+
+// Grid breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    ultra: 1524px
+);
+
+// Grid containers
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px,
+    ultra: 1424px
+);
+
+$input-btn-padding-y:         15px !default;
+$input-btn-padding-x:         64px !default;
+$input-btn-font-size:         28px !default;
+$btn-font-weight:             $font-weight-semibold !default;
+$btn-border-radius:           50px !default;
+$btn-border-width:            3px !default;

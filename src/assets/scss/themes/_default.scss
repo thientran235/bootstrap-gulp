@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+.container-fluid {
+    max-width: 1610px;
+}
+
+.section-divider {
+    opacity: 1;
+    padding: 0;
+    border-top: 3px solid;
+}
+
+.social-media {
+    a {
+        width: 68px;
+        height: 68px;
+        display: inline-block;
+        padding: 20px;
+    }
+}

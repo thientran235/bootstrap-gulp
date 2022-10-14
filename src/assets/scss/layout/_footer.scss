@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer {
+    border-top: 1px solid $gray-100;
+
+    .section-getintounch {
+
+        input[type="text"] {
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+        }
+
+        button[type="button"] {
+            border-top-left-radius: 0 !important;
+            border-bottom-left-radius: 0 !important;
+        }
+    }
+
+    .section-copyright {
+
+        .nav {
+
+            li {
+                a {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    border-right: 1px solid $white;
+
+                }
+
+                &:last-child {
+                    a {
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}

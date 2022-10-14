@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header.navbar {
+    padding: 15px 0;
+
+    --bs-navbar-nav-link-padding-x: 50px;
+
+    .navbar-brand {
+
+        .navbar-brand-logo {
+            width: 140px;
+        }
+    }
+
+    .navbar-nav {
+
+        li:last-child > a {
+            padding-right: 0;
+        }
+    }
+}
+
