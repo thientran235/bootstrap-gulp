@@ -6,7 +6,7 @@ title: Home
 <section id="section-1" class="section section1" style="background-image: url({{ data.section1.background_image }})">
     <div class="container h-100 position-relative">
         <div class="position-absolute top-50 start-5 translate-middle-y">
-            <h2 class="section__title fs-1 fw-bold">{{{ data.section1.title }}}</h2>
+            <h2 class="section__title h1 fw-bold">{{{ data.section1.title }}}</h2>
             <div class="section__btns">
                 <a href="{{ data.section1.button1.link }}" class="section__btns__about btn btn-outline-light">{{ data.section1.button1.text }}</a>
                 <a href="{{ data.section1.button2.link }}" class="section__btns__contact btn btn-primary">{{ data.section1.button2.text }}</a>
@@ -21,9 +21,9 @@ title: Home
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-md-6">
-                <h2 class="section__title fs-1 fw-bold">{{{ data.section2.title }}}</h2>
+                <h2 class="section__title h1 fw-bold">{{{ data.section2.title }}}</h2>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-6 col-lg-5">
                 <p class="section__description lead">{{{ data.section2.description }}}</p>
                 <a href="{{ data.section2.button.link }}" class="section__btn btn btn-outline-secondary">{{ data.section2.button.text }}  <i class="fas fa-arrow-right"></i></a>
             </div>
@@ -39,7 +39,7 @@ title: Home
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-9">
-                <h2 class="section__title fs-1 fw-bold">{{{ data.section3.title }}}</h2>
+                <h2 class="section__title h1 fw-bold">{{{ data.section3.title }}}</h2>
                 <p class="section__description lead">{{{ data.section3.description }}}</p>
                 <div class="section__btns">
                     <a href="{{ data.section3.button1.link }}" class="section__btn btn btn-outline-secondary">{{ data.section3.button1.text }}  <i class="fas fa-arrow-right"></i></a>
@@ -54,12 +54,12 @@ title: Home
 <!-- Section4 -->
 <section id="section-4" class="section section4">
     <div class="container">
-        <div class="row gx-5">
+        <div class="row gx-lg-5 gy-3 row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center">
             <div class="col">
                 <div class="card" >
                     <img src="{{ data.section4.box1.image }}" class="card-img-top" alt="">
                     <div class="card-body p-0 mt-4">
-                        <h3 class="card-title section__title fs-3 fw-semibold">{{{ data.section4.box1.title }}}</h3>
+                        <h3 class="card-title section__title h3 fw-semibold">{{{ data.section4.box1.title }}}</h3>
                         <p class="card-text section__description lead">{{{ data.section4.box1.description }}}</p>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ title: Home
                 <div class="card" >
                     <img src="{{ data.section4.box2.image }}" class="card-img-top" alt="">
                     <div class="card-body p-0 mt-4">
-                        <h3 class="card-title section__title fs-3 fw-semibold">{{{ data.section4.box2.title }}}</h3>
+                        <h3 class="card-title section__title h3 fw-semibold">{{{ data.section4.box2.title }}}</h3>
                         <p class="card-text section__description lead">{{{ data.section4.box2.description }}}</p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ title: Home
                 <div class="card" >
                     <img src="{{ data.section4.box3.image }}" class="card-img-top" alt="">
                     <div class="card-body p-0 mt-4">
-                        <h3 class="card-title section__title fs-3 fw-semibold">{{{ data.section4.box3.title }}}</h3>
+                        <h3 class="card-title section__title h3 fw-semibold">{{{ data.section4.box3.title }}}</h3>
                         <p class="card-text section__description lead">{{{ data.section4.box3.description }}}</p>
                     </div>
                 </div>
@@ -94,8 +94,8 @@ title: Home
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-lg-12">
-                <div class="bg-dark p-5 rounded-5">
-                    <div class="section__title fs-2 text-light fw-bold p-5">{{{ data.section5.testimonial }}}</div>
+                <div class="bg-dark p-lg-5 p-2 rounded-5">
+                    <div class="section__title fs-2 text-light fw-bold p-lg-5 p-2">{{{ data.section5.testimonial }}}</div>
                 </div>
             </div>
         </div>

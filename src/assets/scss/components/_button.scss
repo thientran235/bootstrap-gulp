@@ -1,3 +1,10 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.btn {
+    @include button-size($btn-padding-y-touch, $btn-padding-x-touch, $btn-font-size-touch, $btn-border-radius-touch);
+
+    @include media-breakpoint-up(lg) {
+        @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
+    }
+}

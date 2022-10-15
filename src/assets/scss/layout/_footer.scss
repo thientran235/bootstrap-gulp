@@ -17,6 +17,24 @@
         }
     }
 
+    .section-social-media {
+
+        h5 {
+            position: relative;
+            padding-bottom: 0.5rem;
+
+            &:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 2.5rem;
+                height: 2px;
+                background: $primary;
+            }
+        }
+    }
+
     .section-copyright {
 
         .nav {

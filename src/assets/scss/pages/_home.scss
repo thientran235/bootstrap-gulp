@@ -12,14 +12,14 @@
 
     &__description {
         line-height: 2;
-        font-size: 20px;
-        margin-bottom: 70px;
+        font-size: 1.25rem;
+        margin-bottom: 4.375rem;
     }
 
     .btn {
 
         i {
-            margin-left: 20px;
+            margin-left: 1.25rem;
         }
     }
 
@@ -38,7 +38,7 @@
         .section__btns {
 
             &__about {
-                margin-right: 30px;
+                margin-right: 1.875rem;
             }
 
             &__contact {
@@ -48,14 +48,14 @@
     }
 
     &.section2 {
-        margin: 145px 0;
+        margin: 9.0625rem 0;
     }
 
     &.section3 {
-        margin: 115px 0;
+        margin: 7.1875rem 0;
 
         .btn:first-child {
-            margin-right: 30px;
+            margin-right: 1.875rem;
         }
     }
 
@@ -63,26 +63,26 @@
         margin: 115px 0;
 
         .card {
-            padding: 50px 20px;
-            border-radius: 30px;
+            padding: 3.125rem 1.25rem;
+            border-radius: 1.875rem;
             border: 3px solid $black;
 
             .card-img-top {
-                width: 68px;
+                width: 4.25rem;
             }
 
             .card-text {
                 line-height: 1.9;
-                font-size: 20px;
-                margin-top: 25px;
-                margin-bottom: 50px;
+                font-size: 1.25rem;
+                margin-top: 1.5625rem;
+                margin-bottom: 3.125rem;
             }
         }
 
     }
 
     &.section5 {
-        margin: 115px 0;
+        margin: 7.1875rem 0;
     }
 
 }

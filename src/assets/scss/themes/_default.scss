@@ -2,6 +2,13 @@
 // When having several themes, this file contains everything related to the
 // default one.
 // -----------------------------------------------------------------------------
+.nav-link {
+
+    &:hover, &:active, &:focus {
+        text-decoration: underline;
+    }
+}
+
 .container-fluid {
     max-width: 1610px;
 }
@@ -14,9 +21,9 @@
 
 .social-media {
     a {
-        width: 68px;
-        height: 68px;
+        width: 4.25rem;
+        height: 4.25rem;
         display: inline-block;
-        padding: 20px;
+        padding: 1.25rem;
     }
 }

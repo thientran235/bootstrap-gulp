@@ -6,7 +6,7 @@
  CALCULATION: Element font size in rem x 16px;
  */
 
- // Body text
+// Body text
 // -------------------------
 
 // html {
@@ -14,18 +14,17 @@
 // }
 
 body {
-  font-size: 0.875rem;
-  font-weight: $font-weight-light;
-  font-family: $font-family-primary;
-  letter-spacing: 0.4px;
-  line-height: 1.5rem;
-  color: $body-color;
+    font-size: 1rem;
+    font-weight: $font-weight-light;
+    font-family: $font-weight-normal;
+    letter-spacing: 0.4px;
+    line-height: 1.5rem;
+    color: $body-color;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size(1rem);
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size(1rem);
+    }
 }
-
 
 h1,
 h2,
@@ -39,11 +38,11 @@ h6,
 .h4,
 .h5,
 .h6 {
-  margin-bottom: 28px;
+    margin-bottom: 28px;
 
-  @include media-breakpoint-up(lg) {
-    margin-bottom: 36px;
-  }
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 36px;
+    }
 }
 
 ol,
@@ -51,11 +50,11 @@ ul,
 p,
 blockquote,
 .preamble {
-  margin-bottom: 28px;
+    margin-bottom: 28px;
 
-  @include media-breakpoint-up(lg) {
-    margin-bottom: 36px;
-  }
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 36px;
+    }
 }
 
 // Headings
@@ -68,105 +67,147 @@ h4,
 .h2,
 .h3,
 .h4 {
-  font-family: $font-family-primary;
+    font-family: $font-family-primary;
 }
 
 h5,
 h6,
 .h5,
 .h6 {
-  font-family: $font-family-secondary;
+    font-family: $font-family-secondary;
 }
 
 h1,
 .h1 {
-  color: $text-color-1;
-  font-size: $h1-font-size-touch;
-  font-weight: $font-weight-normal;
-  line-height: $h1-line-height-touch;
-  letter-spacing: 0.13px;
-  text-transform: uppercase;
+    color: $text-color-1;
+    font-size: $h1-font-size-touch;
+    font-weight: $font-weight-normal;
+    line-height: $h1-line-height-touch;
+    letter-spacing: 0.13px;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size($h1-font-size);
-    letter-spacing: 0.22px;
-    line-height: $h1-line-height;
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size($h1-font-size);
+        letter-spacing: 0.22px;
+        line-height: $h1-line-height;
+    }
+}
+
+.fs-1 {
+    font-size: $h1-font-size-touch !important;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h1-font-size !important;
+    }
 }
 
 h2,
 .h2 {
-  color: $text-color-1;
-  font-size: $h2-font-size-touch;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.08px;
-  line-height: $h2-line-height-touch;
-  text-transform: initial;
+    color: $text-color-1;
+    font-size: $h2-font-size-touch;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.08px;
+    line-height: $h2-line-height-touch;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size($h2-font-size);
-    letter-spacing: 0.14px;
-    line-height: $h2-line-height;
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size($h2-font-size);
+        letter-spacing: 0.14px;
+        line-height: $h2-line-height;
+    }
+}
+
+.fs-2 {
+    font-size: $h2-font-size-touch !important;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h2-font-size !important;
+    }
 }
 
 h3,
 .h3 {
-  color: $text-color-1;
-  font-size: $h3-font-size-touch;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.06px;
-  line-height: $h3-line-height-touch;
-  text-transform: initial;
+    color: $text-color-1;
+    font-size: $h3-font-size-touch;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.06px;
+    line-height: $h3-line-height-touch;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size($h3-font-size);
-    letter-spacing: 0.08px;
-    line-height: $h3-line-height;
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size($h3-font-size);
+        letter-spacing: 0.08px;
+        line-height: $h3-line-height;
+    }
+}
+
+.fs-3 {
+    font-size: $h3-font-size-touch !important;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h3-font-size !important;
+    }
 }
 
 h4,
 .h4 {
-  color: $text-color-1;
-  font-size: $h4-font-size-touch;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.05px;
-  line-height: $h4-line-height-touch;
-  text-transform: uppercase;
+    color: $text-color-1;
+    font-size: $h4-font-size-touch;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.05px;
+    line-height: $h4-line-height-touch;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size($h4-font-size);
-    line-height: $h4-line-height;
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size($h4-font-size);
+        line-height: $h4-line-height;
+    }
+}
+
+.fs-4 {
+    font-size: $h4-font-size-touch !important;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h4-font-size !important;
+    }
 }
 
 h5,
 .h5 {
-  color: $text-color-1;
-  font-size: $h5-font-size-touch;
-  font-weight: $font-weight-bold;
-  letter-spacing: normal;
-  line-height: $h5-line-height-touch;
-  text-transform: initial;
+    color: $text-color-1;
+    font-size: $h5-font-size-touch;
+    font-weight: $font-weight-bold;
+    letter-spacing: normal;
+    line-height: $h5-line-height-touch;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size($h5-font-size);
-    line-height: $h5-line-height;
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size($h5-font-size);
+        line-height: $h5-line-height;
+    }
+}
+
+.fs-5 {
+    font-size: $h5-font-size-touch !important;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h5-font-size !important;
+    }
 }
 
 h6,
 .h6 {
-  color: $text-color-1;
-  font-size: $h6-font-size-touch;
-  font-weight: $font-weight-bold;
-  letter-spacing: normal;
-  line-height: $h6-line-height-touch;
-  text-transform: initial;
+    color: $text-color-1;
+    font-size: $h6-font-size-touch;
+    font-weight: $font-weight-bold;
+    letter-spacing: normal;
+    line-height: $h6-line-height-touch;
 
-  @include media-breakpoint-up(lg) {
-    @include font-size($h6-font-size);
-    line-height: $h6-line-height;
-  }
+    @include media-breakpoint-up(lg) {
+        @include font-size($h6-font-size);
+        line-height: $h6-line-height;
+    }
+}
+
+.fs-6 {
+    font-size: $h6-font-size-touch !important;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h6-font-size !important;
+    }
 }
