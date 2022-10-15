@@ -723,7 +723,7 @@ button:not(:disabled),
   display: block;
   width: 100%;
   padding: 0.9375rem 4rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.285rem + 0.42vw);
   font-weight: 300;
   line-height: 1.5;
   color: #30302e;
@@ -741,7 +741,7 @@ button:not(:disabled),
 }
 @media (min-width: 1200px) {
   .form-control {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -817,7 +817,7 @@ button:not(:disabled),
   --bs-btn-padding-x: 4rem;
   --bs-btn-padding-y: 0.9375rem;
   --bs-btn-font-family: ;
-  --bs-btn-font-size: calc(1.3rem + 0.6vw);
+  --bs-btn-font-size: calc(1.285rem + 0.42vw);
   --bs-btn-font-weight: 600;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #30302e;
@@ -854,7 +854,7 @@ button:not(:disabled),
 }
 @media (min-width: 1200px) {
   .btn {
-    --bs-btn-font-size: 1.75rem;
+    --bs-btn-font-size: 1.6rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -1941,13 +1941,13 @@ header.navbar .navbar-nav li:last-child > a {
   .btn {
     --bs-btn-padding-y: 0.9375rem;
     --bs-btn-padding-x: 4rem;
-    --bs-btn-font-size: calc(1.3rem + 0.6vw);
+    --bs-btn-font-size: calc(1.285rem + 0.42vw);
     --bs-btn-border-radius: 3.125rem;
   }
 }
 @media (min-width: 992px) and (min-width: 1200px) {
   .btn {
-    --bs-btn-font-size: 1.75rem;
+    --bs-btn-font-size: 1.6rem;
   }
 }
 
